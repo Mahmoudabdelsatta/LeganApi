@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Committee_DBModelStoreContainer" CdmEntityContainer="Committee_DBEntities1">
+    <EntitySetMapping Name="Alerts">
+      <EntityTypeMapping TypeName="Committee_DBModel.Alert">
+        <MappingFragment StoreEntitySet="Alerts">
+          <ScalarProperty Name="Action_Type" ColumnName="Action_Type" />
+          <ScalarProperty Name="Action_Id2" ColumnName="Action_Id2" />
+          <ScalarProperty Name="Action_Id1" ColumnName="Action_Id1" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Committees">
+      <EntityTypeMapping TypeName="Committee_DBModel.Committee">
+        <MappingFragment StoreEntitySet="Committees">
+          <ScalarProperty Name="DeptId" ColumnName="DeptId" />
+          <ScalarProperty Name="TypeId" ColumnName="TypeId" />
+          <ScalarProperty Name="ImportanceId" ColumnName="ImportanceId" />
+          <ScalarProperty Name="ActivityId" ColumnName="ActivityId" />
+          <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="CommitteeId" ColumnName="CommitteeId" />
+          <ScalarProperty Name="CommitteeManager" ColumnName="CommitteeManager" />
+          <ScalarProperty Name="CommitteeName" ColumnName="CommitteeName" />
+          <ScalarProperty Name="CommitteeSecretary" ColumnName="CommitteeSecretary" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="IsImportant" ColumnName="IsImportant" />
+          <ScalarProperty Name="IsMilitarized" ColumnName="IsMilitarized" />
+          <ScalarProperty Name="MinutesOfTheCommittee" ColumnName="MinutesOfTheCommittee" />
+          <ScalarProperty Name="CommitteePDFView" ColumnName="CommitteePDFView" />
+          <ScalarProperty Name="CommitteeDate" ColumnName="CommitteeDate" />
+          <ScalarProperty Name="CommitteeTopic" ColumnName="CommitteeTopic" />
+          <ScalarProperty Name="CommitteeBasedOn" ColumnName="CommitteeBasedOn" />
+          <ScalarProperty Name="CommitteeInbox1" ColumnName="CommitteeInbox1" />
+          <ScalarProperty Name="CommitteeInbox2" ColumnName="CommitteeInbox2" />
+          <ScalarProperty Name="CommitteeInbox3" ColumnName="CommitteeInbox3" />
+          <ScalarProperty Name="CommitteeEnrollmentNumber" ColumnName="CommitteeEnrollmentNumber" />
+          <ScalarProperty Name="CommitteeEnrollmentDate" ColumnName="CommitteeEnrollmentDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CommitteesMembers">
+      <EntityTypeMapping TypeName="Committee_DBModel.CommitteesMember">
+        <MappingFragment StoreEntitySet="CommitteesMembers">
+          <ScalarProperty Name="IsMinuteAccepted" ColumnName="IsMinuteAccepted" />
+          <ScalarProperty Name="CommitteeRole" ColumnName="CommitteeRole" />
+          <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="CommitteeMemberId" ColumnName="CommitteeMemberId" />
+          <ScalarProperty Name="CommitteeId" ColumnName="CommitteeId" />
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+          <ScalarProperty Name="CommitteeDate" ColumnName="CommitteeDate" />
+          <ScalarProperty Name="MemberWillAttend" ColumnName="MemberWillAttend" />
+          <ScalarProperty Name="AcceptProceedings" ColumnName="AcceptProceedings" />
+          <ScalarProperty Name="ReasonOfRejection" ColumnName="ReasonOfRejection" />
+          <ScalarProperty Name="AgendamodifingSuggession" ColumnName="AgendamodifingSuggession" />
+          <ScalarProperty Name="AlertTime" ColumnName="AlertTime" />
+          <ScalarProperty Name="MeetingTitle" ColumnName="MeetingTitle" />
+          <ScalarProperty Name="MeetingAddress" ColumnName="MeetingAddress" />
+          <ScalarProperty Name="MeetingStatus" ColumnName="MeetingStatus" />
+          <ScalarProperty Name="AgendaTime" ColumnName="AgendaTime" />
+          <ScalarProperty Name="AgendaDescription" ColumnName="AgendaDescription" />
+          <ScalarProperty Name="MeetingDate" ColumnName="MeetingDate" />
+          <ScalarProperty Name="MeetingId" ColumnName="MeetingId" />
+          <ScalarProperty Name="IsMemberAcceptedMiutesOfCommittee" ColumnName="IsMemberAcceptedMiutesOfCommittee" />
+          <ScalarProperty Name="MemberSignature" ColumnName="MemberSignature" />
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CoommitteLookups">
+      <EntityTypeMapping TypeName="Committee_DBModel.CoommitteLookup">
+        <MappingFragment StoreEntitySet="CoommitteLookup">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="Committee_DBModel.Department">
+        <MappingFragment StoreEntitySet="Departments">
+          <ScalarProperty Name="DeptAddress" ColumnName="DeptAddress" />
+          <ScalarProperty Name="DeptId" ColumnName="DeptId" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Members">
+      <EntityTypeMapping TypeName="Committee_DBModel.Member">
+        <MappingFragment StoreEntitySet="Members">
+          <ScalarProperty Name="MemberId" ColumnName="MemberId" />
+          <ScalarProperty Name="MemberName" ColumnName="MemberName" />
+          <ScalarProperty Name="MemberTitle" ColumnName="MemberTitle" />
+          <ScalarProperty Name="MemberAddress" ColumnName="MemberAddress" />
+          <ScalarProperty Name="MemberPhone" ColumnName="MemberPhone" />
+          <ScalarProperty Name="MemberMail" ColumnName="MemberMail" />
+          <ScalarProperty Name="MemberType" ColumnName="MemberType" />
+          <ScalarProperty Name="MemberWorkSide1" ColumnName="MemberWorkSide1" />
+          <ScalarProperty Name="MemberWorkSide2" ColumnName="MemberWorkSide2" />
+          <ScalarProperty Name="MemberWorkSide3" ColumnName="MemberWorkSide3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="Committee_DBModel.Role">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="titleEn" ColumnName="titleEn" />
+          <ScalarProperty Name="titleAr" ColumnName="titleAr" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Agenda">
+      <EntityTypeMapping TypeName="Committee_DBModel.Agendum">
+        <MappingFragment StoreEntitySet="Agenda">
+          <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="MeetingId" ColumnName="MeetingId" />
+          <ScalarProperty Name="AgendaDesc" ColumnName="AgendaDesc" />
+          <ScalarProperty Name="AgendaTime" ColumnName="AgendaTime" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Activities">
+      <EntityTypeMapping TypeName="Committee_DBModel.Activity">
+        <MappingFragment StoreEntitySet="Activity">
+          <ScalarProperty Name="titleAr" ColumnName="titleAr" />
+          <ScalarProperty Name="titleEn" ColumnName="titleEn" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Importances">
+      <EntityTypeMapping TypeName="Committee_DBModel.Importance">
+        <MappingFragment StoreEntitySet="Importance">
+          <ScalarProperty Name="titleAr" ColumnName="titleAr" />
+          <ScalarProperty Name="titleEn" ColumnName="titleEn" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Types">
+      <EntityTypeMapping TypeName="Committee_DBModel.Type">
+        <MappingFragment StoreEntitySet="Type">
+          <ScalarProperty Name="titleAr" ColumnName="titleAr" />
+          <ScalarProperty Name="titleEn" ColumnName="titleEn" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeetingHistories">
+      <EntityTypeMapping TypeName="Committee_DBModel.MeetingHistory">
+        <MappingFragment StoreEntitySet="MeetingHistory">
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="MeetingDate" ColumnName="MeetingDate" />
+          <ScalarProperty Name="MeetingId" ColumnName="MeetingId" />
+          <ScalarProperty Name="TitleEn" ColumnName="TitleEn" />
+          <ScalarProperty Name="TitleAr" ColumnName="TitleAr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meetings">
+      <EntityTypeMapping TypeName="Committee_DBModel.Meeting">
+        <MappingFragment StoreEntitySet="Meetings">
+          <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="MeetingHistory" ColumnName="MeetingHistory" />
+          <ScalarProperty Name="MeetingTime" ColumnName="MeetingTime" />
+          <ScalarProperty Name="MinutesOfMeeting" ColumnName="MinutesOfMeeting" />
+          <ScalarProperty Name="AgendaDescription" ColumnName="AgendaDescription" />
+          <ScalarProperty Name="AgendaTime" ColumnName="AgendaTime" />
+          <ScalarProperty Name="MeetingAddress" ColumnName="MeetingAddress" />
+          <ScalarProperty Name="proceedings" ColumnName="proceedings" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="MeetingDesc" ColumnName="MeetingDesc" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="MeetingDate" ColumnName="MeetingDate" />
+          <ScalarProperty Name="CommitteeId" ColumnName="CommitteeId" />
+          <ScalarProperty Name="MeetingTitle" ColumnName="MeetingTitle" />
+          <ScalarProperty Name="MeetingId" ColumnName="MeetingId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemRoles">
+      <EntityTypeMapping TypeName="Committee_DBModel.SystemRole">
+        <MappingFragment StoreEntitySet="SystemRole">
+          <ScalarProperty Name="titleEn" ColumnName="titleEn" />
+          <ScalarProperty Name="titleAr" ColumnName="titleAr" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Committee_DBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="DeviceType" ColumnName="DeviceType" />
+          <ScalarProperty Name="FCMToken" ColumnName="FCMToken" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ManagerOfDepartment" ColumnName="ManagerOfDepartment" />
+          <ScalarProperty Name="WorkSide" ColumnName="WorkSide" />
+          <ScalarProperty Name="SystemRole" ColumnName="SystemRole" />
+          <ScalarProperty Name="UserImage" ColumnName="UserImage" />
+          <ScalarProperty Name="UserEmailId" ColumnName="UserEmailId" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="IsConfirmed" ColumnName="IsConfirmed" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Chats">
+      <EntityTypeMapping TypeName="Committee_DBModel.Chat">
+        <MappingFragment StoreEntitySet="Chat">
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="CommitteeId" ColumnName="CommitteeId" />
+          <ScalarProperty Name="SenderName" ColumnName="SenderName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MobileVerifications">
+      <EntityTypeMapping TypeName="Committee_DBModel.MobileVerification">
+        <MappingFragment StoreEntitySet="MobileVerification">
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChatMessages">
+      <EntityTypeMapping TypeName="Committee_DBModel.ChatMessage">
+        <MappingFragment StoreEntitySet="ChatMessage">
+          <ScalarProperty Name="Extra" ColumnName="Extra" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="CommitteeId" ColumnName="CommitteeId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ValidCodes">
+      <EntityTypeMapping TypeName="Committee_DBModel.ValidCode">
+        <MappingFragment StoreEntitySet="ValidCode">
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClickActions">
+      <EntityTypeMapping TypeName="Committee_DBModel.ClickAction">
+        <MappingFragment StoreEntitySet="ClickAction">
+          <ScalarProperty Name="Click_Action" ColumnName="Click_Action" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeetingImages">
+      <EntityTypeMapping TypeName="Committee_DBModel.MeetingImage">
+        <MappingFragment StoreEntitySet="MeetingImages">
+          <ScalarProperty Name="MeetingImage1" ColumnName="MeetingImage" />
+          <ScalarProperty Name="MeetingId" ColumnName="MeetingId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

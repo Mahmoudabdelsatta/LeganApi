@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Committee_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Alert">
+    <Key>
+      <PropertyRef Name="AlertId" />
+    </Key>
+    <Property Name="AlertId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AlertTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AlertDate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Committee">
+    <Key>
+      <PropertyRef Name="CommitteeId" />
+    </Key>
+    <Property Name="CommitteeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CommitteeManager" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeSecretary" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CommitteesMembers" Relationship="Self.FK_CommitteesMembers_Committees" FromRole="Committees" ToRole="CommitteesMembers" />
+  </EntityType>
+  <EntityType Name="CommitteesMember">
+    <Key>
+      <PropertyRef Name="CommitteeMemberId" />
+      <PropertyRef Name="CommitteeId" />
+      <PropertyRef Name="MemberId" />
+    </Key>
+    <Property Name="CommitteeMemberId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CommitteeId" Type="Int32" Nullable="false" />
+    <Property Name="MemberId" Type="Int32" Nullable="false" />
+    <Property Name="CommitteeDate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Committee" Relationship="Self.FK_CommitteesMembers_Committees" FromRole="CommitteesMembers" ToRole="Committees" />
+    <NavigationProperty Name="Meeting" Relationship="Self.FK_CommitteesMembers_Meetings" FromRole="CommitteesMembers" ToRole="Meetings" />
+    <NavigationProperty Name="Member" Relationship="Self.FK_CommitteesMembers_Members" FromRole="CommitteesMembers" ToRole="Members" />
+  </EntityType>
+  <EntityType Name="CoommitteLookup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Value" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Meeting">
+    <Key>
+      <PropertyRef Name="MeetingId" />
+    </Key>
+    <Property Name="MeetingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MeetingTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeMemberId" Type="Int32" />
+    <Property Name="MeetingDate" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Latitude" Type="Double" />
+    <Property Name="longitude" Type="Double" />
+    <NavigationProperty Name="CommitteesMembers" Relationship="Self.FK_CommitteesMembers_Meetings" FromRole="Meetings" ToRole="CommitteesMembers" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="MemberId" />
+    </Key>
+    <Property Name="MemberId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MemberName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MemberPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberMail" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CommitteesMembers" Relationship="Self.FK_CommitteesMembers_Members" FromRole="Members" ToRole="CommitteesMembers" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="IsConfirmed" Type="Boolean" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_CommitteesMembers_Committees">
+    <End Role="Committees" Type="Self.Committee" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CommitteesMembers" Type="Self.CommitteesMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Committees">
+        <PropertyRef Name="CommitteeId" />
+      </Principal>
+      <Dependent Role="CommitteesMembers">
+        <PropertyRef Name="CommitteeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommitteesMembers_Meetings">
+    <End Role="Meetings" Type="Self.Meeting" Multiplicity="1" />
+    <End Role="CommitteesMembers" Type="Self.CommitteesMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meetings">
+        <PropertyRef Name="MeetingId" />
+      </Principal>
+      <Dependent Role="CommitteesMembers">
+        <PropertyRef Name="CommitteeMemberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommitteesMembers_Members">
+    <End Role="Members" Type="Self.Member" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CommitteesMembers" Type="Self.CommitteesMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Members">
+        <PropertyRef Name="MemberId" />
+      </Principal>
+      <Dependent Role="CommitteesMembers">
+        <PropertyRef Name="MemberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Committee_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alerts" EntityType="Self.Alert" />
+    <EntitySet Name="Committees" EntityType="Self.Committee" />
+    <EntitySet Name="CommitteesMembers" EntityType="Self.CommitteesMember" />
+    <EntitySet Name="CoommitteLookups" EntityType="Self.CoommitteLookup" />
+    <EntitySet Name="Meetings" EntityType="Self.Meeting" />
+    <EntitySet Name="Members" EntityType="Self.Member" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_CommitteesMembers_Committees" Association="Self.FK_CommitteesMembers_Committees">
+      <End Role="Committees" EntitySet="Committees" />
+      <End Role="CommitteesMembers" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommitteesMembers_Meetings" Association="Self.FK_CommitteesMembers_Meetings">
+      <End Role="Meetings" EntitySet="Meetings" />
+      <End Role="CommitteesMembers" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommitteesMembers_Members" Association="Self.FK_CommitteesMembers_Members">
+      <End Role="Members" EntitySet="Members" />
+      <End Role="CommitteesMembers" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

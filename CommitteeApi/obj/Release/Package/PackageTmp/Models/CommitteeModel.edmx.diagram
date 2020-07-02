@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e1de291a799c4233a74c197d3cd7c83e" Name="Diagram1">
+        <EntityTypeShape EntityType="Committee_DBModel.Alert" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Committee_DBModel.Committee" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Committee_DBModel.CommitteesMember" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Committee_DBModel.CoommitteLookup" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Committee_DBModel.Department" Width="1.5" PointX="0.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Committee_DBModel.Member" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Committee_DBModel.Role" Width="1.5" PointX="4.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="Committee_DBModel.FK_CommitteesMembers_Committees" />
+        <EntityTypeShape EntityType="Committee_DBModel.Agendum" Width="1.5" PointX="5" PointY="16.25" />
+        <EntityTypeShape EntityType="Committee_DBModel.Activity" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="Committee_DBModel.Importance" Width="1.5" PointX="0.75" PointY="4.25" />
+        <EntityTypeShape EntityType="Committee_DBModel.Type" Width="1.5" PointX="0.75" PointY="12.25" />
+        <AssociationConnector Association="Committee_DBModel.FK_Committees_Activity" />
+        <AssociationConnector Association="Committee_DBModel.FK_Committees_Importance" />
+        <AssociationConnector Association="Committee_DBModel.FK_Committees_Type" />
+        <AssociationConnector Association="Committee_DBModel.FK_CommitteesMembers_Roles" />
+        <EntityTypeShape EntityType="Committee_DBModel.MeetingHistory" Width="1.5" PointX="3" PointY="15.375" />
+        <EntityTypeShape EntityType="Committee_DBModel.Meeting" Width="1.5" PointX="0.75" PointY="7.375" />
+        <AssociationConnector Association="Committee_DBModel.FK_Agenda_Meetings" />
+        <AssociationConnector Association="Committee_DBModel.FK_MeetingHistory_Meetings" />
+        <EntityTypeShape EntityType="Committee_DBModel.SystemRole" Width="1.5" PointX="9" PointY="8.375" />
+        <EntityTypeShape EntityType="Committee_DBModel.User" Width="1.5" PointX="11.25" PointY="7.125" />
+        <AssociationConnector Association="Committee_DBModel.FK_CommitteesMembers_Users" />
+        <AssociationConnector Association="Committee_DBModel.FK_Users_Roles" />
+        <AssociationConnector Association="Committee_DBModel.FK_Users_SystemRole" />
+        <AssociationConnector Association="Committee_DBModel.FK_Users_Departments" />
+        <AssociationConnector Association="Committee_DBModel.FK_Committees_Departments" />
+        <AssociationConnector Association="Committee_DBModel.FK_Alerts_Users" />
+        <AssociationConnector Association="Committee_DBModel.FK_CommitteesMembers_Meetings" />
+        <EntityTypeShape EntityType="Committee_DBModel.Chat" Width="1.5" PointX="9.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Committee_DBModel.MobileVerification" Width="1.5" PointX="9.375" PointY="3.75" />
+        <EntityTypeShape EntityType="Committee_DBModel.ChatMessage" Width="1.5" PointX="5.375" PointY="11" />
+        <EntityTypeShape EntityType="Committee_DBModel.ValidCode" Width="1.5" PointX="7.375" PointY="10.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

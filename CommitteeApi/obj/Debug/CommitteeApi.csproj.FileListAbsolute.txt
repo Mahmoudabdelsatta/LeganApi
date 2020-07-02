@@ -1,0 +1,1146 @@
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\ApplicationInsights.config
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\CommitteeApi.dll.config
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\CommitteeApi.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\CommitteeApi.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\csc.exe
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\csc.exe.config
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\csc.rsp
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\csi.exe
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\csi.exe.config
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\csi.rsp
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.Managed.Core.targets
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.AppContext.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Collections.Immutable.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Console.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.Compression.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.FileSystem.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.Pipes.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.AccessControl.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Claims.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Principal.Windows.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.ValueTuple.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.XmlDocument.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.XPath.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\vbc.exe
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\vbc.exe.config
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\vbc.rsp
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\VBCSCompiler.exe
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\roslyn\VBCSCompiler.exe.config
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Win32.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\netstandard.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.AppContext.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Collections.Concurrent.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Collections.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Collections.NonGeneric.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Collections.Specialized.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.ComponentModel.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.ComponentModel.EventBasedAsync.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.ComponentModel.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.ComponentModel.TypeConverter.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Console.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Data.Common.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Contracts.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Debug.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.FileVersionInfo.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Process.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.StackTrace.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Tools.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.TraceSource.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Tracing.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Drawing.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Dynamic.Runtime.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Globalization.Calendars.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Globalization.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Globalization.Extensions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.Compression.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.Compression.ZipFile.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.DriveInfo.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.Watcher.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.IsolatedStorage.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.MemoryMappedFiles.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.Pipes.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IO.UnmanagedMemoryStream.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Linq.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Linq.Expressions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Linq.Parallel.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Linq.Queryable.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.Http.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.NameResolution.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.NetworkInformation.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.Ping.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.Requests.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.Security.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.Sockets.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.WebHeaderCollection.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.WebSockets.Client.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.WebSockets.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.ObjectModel.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Reflection.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Reflection.Extensions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Reflection.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Resources.Reader.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Resources.ResourceManager.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Resources.Writer.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.Extensions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.Handles.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.InteropServices.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.Numerics.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Formatters.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Json.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Xml.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.Claims.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Algorithms.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Csp.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Encoding.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.X509Certificates.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.Principal.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.SecureString.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Text.Encoding.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Text.Encoding.Extensions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Text.RegularExpressions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Threading.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Threading.Overlapped.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Threading.Tasks.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Threading.Tasks.Parallel.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Threading.Thread.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Threading.ThreadPool.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Threading.Timer.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.ValueTuple.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Xml.ReaderWriter.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Xml.XDocument.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Xml.XmlDocument.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Xml.XmlSerializer.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Xml.XPath.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Xml.XPath.XDocument.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Antlr3.Runtime.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\BouncyCastle.Crypto.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\EntityFramework.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\EntityFramework.SqlServer.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Firebase.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\FirebaseAdmin.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\FirebaseAuth.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Api.Gax.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Api.Gax.Rest.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.Auth.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.Auth.PlatformServices.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.Core.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.PlatformServices.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\jose-jwt.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\LiteDB.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AI.Web.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AI.WindowsServer.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.ApplicationInsights.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Antiforgery.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authorization.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cors.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.JsonPatch.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Localization.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.Host.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.CSharp.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Json.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyModel.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Composite.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Physical.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Globalization.CultureInfoCache.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.ObjectPool.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Options.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.PlatformAbstractions.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Primitives.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.WebEncoders.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Logging.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Tokens.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Net.Http.Headers.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Cors.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.OAuth.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Web.Infrastructure.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Win32.Registry.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Newtonsoft.Json.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Owin.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\PhoneNumbers.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\RestSharp.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Buffers.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Collections.Immutable.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.DiagnosticSource.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.Http.Formatting.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Reactive.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Reflection.Metadata.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.AccessControl.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Xml.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Security.Principal.Windows.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Text.Encoding.CodePages.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Text.Encodings.Web.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Cors.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Helpers.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Http.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Http.WebHost.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Mvc.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Optimization.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Razor.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Deployment.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Razor.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Twilio.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\UnityEngine.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\WebGrease.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Interactive.Async.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\BouncyCastle.Crypto.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\EntityFramework.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\EntityFramework.SqlServer.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\FirebaseAdmin.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Api.Gax.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Api.Gax.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Api.Gax.Rest.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Api.Gax.Rest.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.Auth.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.Auth.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.Core.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Google.Apis.Core.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\LiteDB.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Antiforgery.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authorization.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cors.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Html.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.JsonPatch.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Localization.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Localization.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.Host.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.Runtime.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.CSharp.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Json.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Composite.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Physical.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Globalization.CultureInfoCache.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.ObjectPool.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Options.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.PlatformAbstractions.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Primitives.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.WebEncoders.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Logging.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Logging.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Tokens.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Tokens.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Net.Http.Headers.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Cors.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.OAuth.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Newtonsoft.Json.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\RestSharp.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Buffers.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Collections.Immutable.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Net.Http.Formatting.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Reactive.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Reflection.Metadata.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Text.Encodings.Web.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Http.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Helpers.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Http.WebHost.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Mvc.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Optimization.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.Razor.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Deployment.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Razor.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Twilio.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Antlr3.Runtime.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Diagnostics.DiagnosticSource.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AI.WindowsServer.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.AI.Web.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\bin\System.Interactive.Async.xml
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.csproj.CoreCompileInputs.cache
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.csproj.CopyComplete
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.dll
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.pdb
+D:\self\self projects\Committee\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.csprojAssemblyReference.cache
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\ApplicationInsights.config
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\CommitteeApi.dll.config
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\CommitteeApi.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\CommitteeApi.pdb
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Win32.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\netstandard.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.AppContext.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Collections.Concurrent.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Collections.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Collections.NonGeneric.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Collections.Specialized.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.ComponentModel.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.ComponentModel.EventBasedAsync.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.ComponentModel.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.ComponentModel.TypeConverter.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Console.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Data.Common.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Contracts.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Debug.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.FileVersionInfo.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Process.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.StackTrace.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.TextWriterTraceListener.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Tools.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.TraceSource.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Tracing.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Drawing.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Dynamic.Runtime.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Globalization.Calendars.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Globalization.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Globalization.Extensions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.Compression.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.Compression.ZipFile.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.DriveInfo.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.Watcher.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.IsolatedStorage.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.MemoryMappedFiles.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.Pipes.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IO.UnmanagedMemoryStream.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Linq.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Linq.Expressions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Linq.Parallel.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Linq.Queryable.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.Http.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.NameResolution.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.NetworkInformation.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.Ping.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.Requests.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.Security.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.Sockets.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.WebHeaderCollection.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.WebSockets.Client.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.WebSockets.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.ObjectModel.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Reflection.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Reflection.Extensions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Reflection.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Resources.Reader.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Resources.ResourceManager.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Resources.Writer.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.CompilerServices.VisualC.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.Extensions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.Handles.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.InteropServices.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.Numerics.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Formatters.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Json.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Xml.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.Claims.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Algorithms.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Csp.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Encoding.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.X509Certificates.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.Principal.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.SecureString.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Text.Encoding.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Text.Encoding.Extensions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Text.RegularExpressions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Threading.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Threading.Overlapped.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Threading.Tasks.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Threading.Tasks.Parallel.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Threading.Thread.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Threading.ThreadPool.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Threading.Timer.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.ValueTuple.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Xml.ReaderWriter.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Xml.XDocument.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Xml.XmlDocument.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Xml.XmlSerializer.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Xml.XPath.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Xml.XPath.XDocument.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Antlr3.Runtime.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\BouncyCastle.Crypto.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\EntityFramework.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\EntityFramework.SqlServer.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Firebase.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\FirebaseAuth.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Google.Apis.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Google.Apis.PlatformServices.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\jose-jwt.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\LiteDB.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.DependencyCollector.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.Web.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.WindowsServer.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.ApplicationInsights.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Antiforgery.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authorization.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cors.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.JsonPatch.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Localization.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.Host.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.CSharp.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Memory.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Json.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyModel.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Composite.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Globalization.CultureInfoCache.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.ObjectPool.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Options.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.PlatformAbstractions.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.WebEncoders.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Logging.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Tokens.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Net.Http.Headers.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Cors.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Web.Infrastructure.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Win32.Registry.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Newtonsoft.Json.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Owin.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\PhoneNumbers.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\RestSharp.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Buffers.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Collections.Immutable.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.Http.Formatting.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Reactive.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Reflection.Metadata.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.AccessControl.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Xml.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Security.Principal.Windows.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Text.Encoding.CodePages.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Text.Encodings.Web.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Cors.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Helpers.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Http.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Http.WebHost.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Mvc.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Optimization.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Razor.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Deployment.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Razor.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Twilio.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\UnityEngine.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\WebGrease.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\BouncyCastle.Crypto.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\EntityFramework.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\EntityFramework.SqlServer.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Google.Apis.pdb
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Google.Apis.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\LiteDB.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Antiforgery.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authorization.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cors.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Html.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.JsonPatch.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Localization.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Localization.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.Host.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.Runtime.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.CSharp.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Memory.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Json.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Composite.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Physical.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Globalization.CultureInfoCache.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.ObjectPool.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Options.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.PlatformAbstractions.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Primitives.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.WebEncoders.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Logging.pdb
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Logging.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Tokens.pdb
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Tokens.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Net.Http.Headers.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Cors.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Newtonsoft.Json.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\RestSharp.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Buffers.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IdentityModel.Tokens.Jwt.pdb
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Net.Http.Formatting.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Reactive.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Reflection.Metadata.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Text.Encodings.Web.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Http.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Helpers.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Http.WebHost.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Mvc.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Optimization.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.Razor.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Deployment.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Razor.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Twilio.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Antlr3.Runtime.pdb
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.DependencyCollector.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.WindowsServer.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.Web.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.csproj.CoreCompileInputs.cache
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.csproj.CopyComplete
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.pdb
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\csc.exe
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\csc.exe.config
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\csc.rsp
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\csi.exe
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\csi.exe.config
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\csi.rsp
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.AppContext.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Collections.Immutable.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Console.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.Compression.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.FileSystem.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.Pipes.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.AccessControl.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Claims.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.ValueTuple.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.XPath.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\vbc.exe
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\vbc.exe.config
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\vbc.rsp
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\VBCSCompiler.exe
+E:\Latest versions of projects\committee16.2.2020\CommitteeAPi\CommitteeApi\CommitteeApi\bin\roslyn\VBCSCompiler.exe.config
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\ApplicationInsights.config
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\CommitteeApi.dll.config
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\CommitteeApi.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\CommitteeApi.pdb
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\csc.exe
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\csc.exe.config
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\csc.rsp
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\csi.exe
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\csi.exe.config
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\csi.rsp
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.AppContext.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Collections.Immutable.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Console.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.Compression.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.FileSystem.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.IO.Pipes.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.AccessControl.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Claims.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.ValueTuple.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.XPath.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\vbc.exe
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\vbc.exe.config
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\vbc.rsp
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\VBCSCompiler.exe
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\roslyn\VBCSCompiler.exe.config
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Win32.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\netstandard.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.AppContext.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Collections.Concurrent.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Collections.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Collections.NonGeneric.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Collections.Specialized.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.ComponentModel.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.ComponentModel.EventBasedAsync.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.ComponentModel.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.ComponentModel.TypeConverter.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Console.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Data.Common.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Contracts.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Debug.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.FileVersionInfo.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Process.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.StackTrace.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.TextWriterTraceListener.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Tools.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.TraceSource.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.Tracing.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Drawing.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Dynamic.Runtime.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Globalization.Calendars.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Globalization.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Globalization.Extensions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.Compression.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.Compression.ZipFile.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.DriveInfo.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.FileSystem.Watcher.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.IsolatedStorage.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.MemoryMappedFiles.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.Pipes.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IO.UnmanagedMemoryStream.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Linq.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Linq.Expressions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Linq.Parallel.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Linq.Queryable.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.Http.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.NameResolution.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.NetworkInformation.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.Ping.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.Requests.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.Security.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.Sockets.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.WebHeaderCollection.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.WebSockets.Client.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.WebSockets.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.ObjectModel.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Reflection.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Reflection.Extensions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Reflection.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Resources.Reader.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Resources.ResourceManager.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Resources.Writer.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.CompilerServices.VisualC.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.Extensions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.Handles.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.InteropServices.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.Numerics.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Formatters.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Json.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.Serialization.Xml.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.Claims.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Algorithms.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Csp.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Encoding.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.X509Certificates.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.Principal.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.SecureString.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Text.Encoding.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Text.Encoding.Extensions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Text.RegularExpressions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Threading.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Threading.Overlapped.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Threading.Tasks.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Threading.Tasks.Parallel.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Threading.Thread.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Threading.ThreadPool.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Threading.Timer.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.ValueTuple.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Xml.ReaderWriter.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Xml.XDocument.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Xml.XmlDocument.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Xml.XmlSerializer.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Xml.XPath.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Xml.XPath.XDocument.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Antlr3.Runtime.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\BouncyCastle.Crypto.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\EntityFramework.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\EntityFramework.SqlServer.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Firebase.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\FirebaseAuth.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Google.Apis.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Google.Apis.PlatformServices.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\jose-jwt.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\LiteDB.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.DependencyCollector.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.Web.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.WindowsServer.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.ApplicationInsights.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Antiforgery.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Core.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authorization.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cors.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Html.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Extensions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Features.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.JsonPatch.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Localization.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Core.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Cors.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Localization.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.Host.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.Runtime.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.WebUtilities.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.CSharp.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Memory.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Json.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyModel.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Composite.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Globalization.CultureInfoCache.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.ObjectPool.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Options.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.PlatformAbstractions.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Primitives.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.WebEncoders.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Logging.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Tokens.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Net.Http.Headers.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Cors.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Web.Infrastructure.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Win32.Registry.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Newtonsoft.Json.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Owin.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\PhoneNumbers.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\RestSharp.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Buffers.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Collections.Immutable.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.Http.Formatting.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Reactive.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Reflection.Metadata.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.AccessControl.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.Cryptography.Xml.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Security.Principal.Windows.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Text.Encoding.CodePages.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Text.Encodings.Web.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Cors.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Helpers.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Http.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Http.WebHost.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Mvc.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Optimization.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Razor.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Deployment.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Razor.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Twilio.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\UnityEngine.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\WebGrease.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\BouncyCastle.Crypto.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\EntityFramework.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\EntityFramework.SqlServer.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Google.Apis.pdb
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Google.Apis.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\LiteDB.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Antiforgery.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authentication.Core.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Authorization.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cors.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Html.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Extensions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Http.Features.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.JsonPatch.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Localization.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ApiExplorer.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Core.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Cors.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Localization.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.Razor.Host.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Razor.Runtime.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNetCore.WebUtilities.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeAnalysis.CSharp.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Caching.Memory.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Configuration.Json.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Composite.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileProviders.Physical.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Globalization.CultureInfoCache.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Localization.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.ObjectPool.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Options.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.PlatformAbstractions.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.Primitives.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Extensions.WebEncoders.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Logging.pdb
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Logging.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Tokens.pdb
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.IdentityModel.Tokens.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Net.Http.Headers.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Cors.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Newtonsoft.Json.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\RestSharp.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Buffers.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IdentityModel.Tokens.Jwt.pdb
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Net.Http.Formatting.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Reactive.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Reflection.Metadata.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Text.Encodings.Web.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Http.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Helpers.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Http.WebHost.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Mvc.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Optimization.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.Razor.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Deployment.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Web.WebPages.Razor.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Twilio.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Antlr3.Runtime.pdb
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.DependencyCollector.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.WindowsServer.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.AI.Web.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.csprojAssemblyReference.cache
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.csproj.CoreCompileInputs.cache
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.csproj.CopyComplete
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.dll
+E:\Khaled\API\LVApi\CommitteeApi\CommitteeApi\obj\Debug\CommitteeApi.pdb

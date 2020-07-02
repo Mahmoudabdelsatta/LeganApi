@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Committee_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Alert">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="CreatedAt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Committee">
+    <Key>
+      <PropertyRef Name="CommitteeId" />
+    </Key>
+    <Property Name="CommitteeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CommitteeManager" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeSecretary" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsImportant" Type="Boolean" />
+    <Property Name="IsMilitarized" Type="Boolean" />
+    <Property Name="MinutesOfTheCommittee" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteePDFView" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeDate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeTopic" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeBasedOn" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeInbox1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeInbox2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeInbox3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeEnrollmentNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeEnrollmentDate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="UpdatedAt" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ActivityId" Type="Int32" Nullable="false" />
+    <Property Name="ImportanceId" Type="Int32" Nullable="false" />
+    <Property Name="TypeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Activity" Relationship="Committee_DBModel.FK_Committees_Activity" FromRole="Committee" ToRole="Activity" />
+    <NavigationProperty Name="Importance" Relationship="Committee_DBModel.FK_Committees_Importance" FromRole="Committee" ToRole="Importance" />
+    <NavigationProperty Name="Type" Relationship="Committee_DBModel.FK_Committees_Type" FromRole="Committee" ToRole="Type" />
+    <Property Name="DeptId" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="Committee_DBModel.FK_Committees_Departments" FromRole="Committee" ToRole="Department" />
+  </EntityType>
+  <EntityType Name="CommitteesMember">
+    <Key>
+      <PropertyRef Name="CommitteeMemberId" />
+    </Key>
+    <Property Name="CommitteeMemberId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CommitteeId" Type="Int32" Nullable="false" />
+    <Property Name="MemberId" Type="Int32" Nullable="false" />
+    <Property Name="CommitteeDate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MemberWillAttend" Type="Boolean" />
+    <Property Name="AcceptProceedings" Type="Boolean" />
+    <Property Name="ReasonOfRejection" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AgendamodifingSuggession" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AlertTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingTitle" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingAddress" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AgendaTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AgendaDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingDate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingId" Type="Int32" Nullable="false" />
+    <Property Name="IsMemberAcceptedMiutesOfCommittee" Type="Boolean" />
+    <Property Name="MemberSignature" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AlertId" Type="Int32" />
+    <NavigationProperty Name="Committee" Relationship="Committee_DBModel.FK_CommitteesMembers_Committees" FromRole="CommitteesMember" ToRole="Committee" />
+    <Property Name="CreatedAt" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="UpdatedAt" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeRole" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Role" Relationship="Committee_DBModel.FK_CommitteesMembers_Roles" FromRole="CommitteesMember" ToRole="Role" />
+    <NavigationProperty Name="User" Relationship="Committee_DBModel.FK_CommitteesMembers_Users" FromRole="CommitteesMember" ToRole="User" />
+    <Property Name="IsMinuteAccepted" Type="Boolean" />
+    <NavigationProperty Name="Meeting" Relationship="Committee_DBModel.FK_CommitteesMembers_Meetings" FromRole="CommitteesMember" ToRole="Meeting" />
+  </EntityType>
+  <EntityType Name="CoommitteLookup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Value" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DeptId" />
+    </Key>
+    <Property Name="DeptId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeptName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DeptAddress" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Member">
+    <Key>
+      <PropertyRef Name="MemberId" />
+    </Key>
+    <Property Name="MemberId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MemberName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MemberPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberMail" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MemberType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberWorkSide1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberWorkSide2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MemberWorkSide3" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titleAr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="titleEn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="Committee_DBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alerts" EntityType="Self.Alert" />
+    <EntitySet Name="Committees" EntityType="Self.Committee" />
+    <EntitySet Name="CommitteesMembers" EntityType="Self.CommitteesMember" />
+    <EntitySet Name="CoommitteLookups" EntityType="Self.CoommitteLookup" />
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="Members" EntityType="Self.Member" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <AssociationSet Name="FK_CommitteesMembers_Committees" Association="Committee_DBModel.FK_CommitteesMembers_Committees">
+      <End Role="Committee" EntitySet="Committees" />
+      <End Role="CommitteesMember" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <EntitySet Name="Agenda" EntityType="Committee_DBModel.Agendum" />
+    <EntitySet Name="Activities" EntityType="Committee_DBModel.Activity" />
+    <EntitySet Name="Importances" EntityType="Committee_DBModel.Importance" />
+    <EntitySet Name="Types" EntityType="Committee_DBModel.Type" />
+    <AssociationSet Name="FK_Committees_Activity" Association="Committee_DBModel.FK_Committees_Activity">
+      <End Role="Activity" EntitySet="Activities" />
+      <End Role="Committee" EntitySet="Committees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Committees_Importance" Association="Committee_DBModel.FK_Committees_Importance">
+      <End Role="Importance" EntitySet="Importances" />
+      <End Role="Committee" EntitySet="Committees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Committees_Type" Association="Committee_DBModel.FK_Committees_Type">
+      <End Role="Type" EntitySet="Types" />
+      <End Role="Committee" EntitySet="Committees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommitteesMembers_Roles" Association="Committee_DBModel.FK_CommitteesMembers_Roles">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="CommitteesMember" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <EntitySet Name="MeetingHistories" EntityType="Committee_DBModel.MeetingHistory" />
+    <EntitySet Name="Meetings" EntityType="Committee_DBModel.Meeting" />
+    <AssociationSet Name="FK_Agenda_Meetings" Association="Committee_DBModel.FK_Agenda_Meetings">
+      <End Role="Meeting" EntitySet="Meetings" />
+      <End Role="Agendum" EntitySet="Agenda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MeetingHistory_Meetings" Association="Committee_DBModel.FK_MeetingHistory_Meetings">
+      <End Role="Meeting" EntitySet="Meetings" />
+      <End Role="MeetingHistory" EntitySet="MeetingHistories" />
+    </AssociationSet>
+    <EntitySet Name="SystemRoles" EntityType="Committee_DBModel.SystemRole" />
+    <EntitySet Name="Users" EntityType="Committee_DBModel.User" />
+    <AssociationSet Name="FK_CommitteesMembers_Users" Association="Committee_DBModel.FK_CommitteesMembers_Users">
+      <End Role="User" EntitySet="Users" />
+      <End Role="CommitteesMember" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Roles" Association="Committee_DBModel.FK_Users_Roles">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_SystemRole" Association="Committee_DBModel.FK_Users_SystemRole">
+      <End Role="SystemRole" EntitySet="SystemRoles" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Departments" Association="Committee_DBModel.FK_Users_Departments">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Committees_Departments" Association="Committee_DBModel.FK_Committees_Departments">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Committee" EntitySet="Committees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Alerts_Users" Association="Committee_DBModel.FK_Alerts_Users">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Alert" EntitySet="Alerts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommitteesMembers_Meetings" Association="Committee_DBModel.FK_CommitteesMembers_Meetings">
+      <End Role="Meeting" EntitySet="Meetings" />
+      <End Role="CommitteesMember" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <EntitySet Name="Chats" EntityType="Committee_DBModel.Chat" />
+    <EntitySet Name="MobileVerifications" EntityType="Committee_DBModel.MobileVerification" />
+    <EntitySet Name="ChatMessages" EntityType="Committee_DBModel.ChatMessage" />
+    <EntitySet Name="ValidCodes" EntityType="Committee_DBModel.ValidCode" />
+  </EntityContainer>
+  <Association Name="FK_CommitteesMembers_Committees">
+    <End Type="Committee_DBModel.Committee" Role="Committee" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Committee_DBModel.CommitteesMember" Role="CommitteesMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Committee">
+        <PropertyRef Name="CommitteeId" />
+      </Principal>
+      <Dependent Role="CommitteesMember">
+        <PropertyRef Name="CommitteeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Agendum">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AgendaTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AgendaDesc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingId" Type="Int32" Nullable="false" />
+    <Property Name="CreatedAt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UpdatedAt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Activity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titleEn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="titleAr" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Importance">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titleEn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="titleAr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Type">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titleEn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="titleAr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_Committees_Activity">
+    <End Type="Committee_DBModel.Activity" Role="Activity" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Committee_DBModel.Committee" Role="Committee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Activity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Committee">
+        <PropertyRef Name="ActivityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Committees_Importance">
+    <End Type="Committee_DBModel.Importance" Role="Importance" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Committee_DBModel.Committee" Role="Committee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Importance">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Committee">
+        <PropertyRef Name="ImportanceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Committees_Type">
+    <End Type="Committee_DBModel.Type" Role="Type" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Committee_DBModel.Committee" Role="Committee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Committee">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommitteesMembers_Roles">
+    <End Type="Committee_DBModel.Role" Role="Role" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Committee_DBModel.CommitteesMember" Role="CommitteesMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CommitteesMember">
+        <PropertyRef Name="CommitteeRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="MeetingHistory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TitleAr" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="TitleEn" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingId" Type="Int32" Nullable="false" />
+    <Property Name="MeetingDate" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Meeting">
+    <Key>
+      <PropertyRef Name="MeetingId" />
+    </Key>
+    <Property Name="MeetingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MeetingTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeId" Type="Int32" />
+    <Property Name="MeetingDate" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Latitude" Type="Double" />
+    <Property Name="longitude" Type="Double" />
+    <Property Name="MeetingDesc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int32" />
+    <Property Name="proceedings" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingAddress" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="AgendaTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AgendaDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MinutesOfMeeting" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MeetingHistory" Type="Int32" />
+    <NavigationProperty Name="Agenda" Relationship="Committee_DBModel.FK_Agenda_Meetings" FromRole="Meeting" ToRole="Agendum" />
+    <NavigationProperty Name="MeetingHistories" Relationship="Committee_DBModel.FK_MeetingHistory_Meetings" FromRole="Meeting" ToRole="MeetingHistory" />
+    <Property Name="CreatedAt" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UpdatedAt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CommitteesMembers" Relationship="Committee_DBModel.FK_CommitteesMembers_Meetings" FromRole="Meeting" ToRole="CommitteesMember" />
+  </EntityType>
+  <Association Name="FK_Agenda_Meetings">
+    <End Type="Committee_DBModel.Meeting" Role="Meeting" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Committee_DBModel.Agendum" Role="Agendum" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingId" />
+      </Principal>
+      <Dependent Role="Agendum">
+        <PropertyRef Name="MeetingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MeetingHistory_Meetings">
+    <End Type="Committee_DBModel.Meeting" Role="Meeting" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Committee_DBModel.MeetingHistory" Role="MeetingHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingId" />
+      </Principal>
+      <Dependent Role="MeetingHistory">
+        <PropertyRef Name="MeetingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="SystemRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titleAr" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="titleEn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="IsConfirmed" Type="Boolean" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserRole" Type="Int32" />
+    <Property Name="UserPassword" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="UserEmailId" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="UserImage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SystemRole" Type="Int32" />
+    <NavigationProperty Name="Role" Relationship="Committee_DBModel.FK_Users_Roles" FromRole="User" ToRole="Role" />
+    <NavigationProperty Name="SystemRoleMap" Relationship="Committee_DBModel.FK_Users_SystemRole" FromRole="User" ToRole="SystemRole" />
+    <Property Name="WorkSide" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ManagerOfDepartment" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="Committee_DBModel.FK_Users_Departments" FromRole="User" ToRole="Department" />
+    <Property Name="Name" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FCMToken" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DeviceType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Alerts" Relationship="Committee_DBModel.FK_Alerts_Users" FromRole="User" ToRole="Alert" />
+  </EntityType>
+  <Association Name="FK_CommitteesMembers_Users">
+    <End Type="Committee_DBModel.User" Role="User" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Committee_DBModel.CommitteesMember" Role="CommitteesMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CommitteesMember">
+        <PropertyRef Name="MemberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Roles">
+    <End Type="Committee_DBModel.Role" Role="Role" Multiplicity="0..1" />
+    <End Type="Committee_DBModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="UserRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_SystemRole">
+    <End Type="Committee_DBModel.SystemRole" Role="SystemRole" Multiplicity="0..1" />
+    <End Type="Committee_DBModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SystemRole">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="SystemRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Departments">
+    <End Type="Committee_DBModel.Department" Role="Department" Multiplicity="0..1" />
+    <End Type="Committee_DBModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="ManagerOfDepartment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Committees_Departments">
+    <End Type="Committee_DBModel.Department" Role="Department" Multiplicity="0..1" />
+    <End Type="Committee_DBModel.Committee" Role="Committee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DeptId" />
+      </Principal>
+      <Dependent Role="Committee">
+        <PropertyRef Name="DeptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Alerts_Users">
+    <End Type="Committee_DBModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="Committee_DBModel.Alert" Role="Alert" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Alert">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommitteesMembers_Meetings">
+    <End Type="Committee_DBModel.Meeting" Role="Meeting" Multiplicity="1" />
+    <End Type="Committee_DBModel.CommitteesMember" Role="CommitteesMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingId" />
+      </Principal>
+      <Dependent Role="CommitteesMember">
+        <PropertyRef Name="MeetingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Chat">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SenderName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MobileVerification">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="Int32" />
+    <Property Name="DateTime" Type="DateTime" Precision="3" />
+    <Property Name="Phone" Type="Int64" />
+  </EntityType>
+  <EntityType Name="ChatMessage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="Int64" />
+    <Property Name="Message" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CommitteeId" Type="Int32" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Extra" Type="Int64" />
+  </EntityType>
+  <EntityType Name="ValidCode">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Phone" Type="Int64" />
+    <Property Name="Code" Type="Int32" />
+    <Property Name="DateTime" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>

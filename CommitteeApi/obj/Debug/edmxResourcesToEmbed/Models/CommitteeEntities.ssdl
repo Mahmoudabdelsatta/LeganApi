@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Committee_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Alerts">
+    <Key>
+      <PropertyRef Name="AlertId" />
+    </Key>
+    <Property Name="AlertId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AlertTitle" Type="nvarchar(max)" />
+    <Property Name="AlertDate" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Committees">
+    <Key>
+      <PropertyRef Name="CommitteeId" />
+    </Key>
+    <Property Name="CommitteeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CommitteeManager" Type="nvarchar" MaxLength="200" />
+    <Property Name="CommitteeTitle" Type="nvarchar(max)" />
+    <Property Name="CommitteeSecretary" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="CommitteesMembers">
+    <Key>
+      <PropertyRef Name="CommitteeMemberId" />
+      <PropertyRef Name="CommitteeId" />
+      <PropertyRef Name="MemberId" />
+    </Key>
+    <Property Name="CommitteeMemberId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CommitteeId" Type="int" Nullable="false" />
+    <Property Name="MemberId" Type="int" Nullable="false" />
+    <Property Name="CommitteeDate" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="CoommitteLookup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Value" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Meetings">
+    <Key>
+      <PropertyRef Name="MeetingId" />
+    </Key>
+    <Property Name="MeetingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MeetingTitle" Type="nvarchar(max)" />
+    <Property Name="CommitteeMemberId" Type="int" />
+    <Property Name="MeetingDate" Type="nvarchar" MaxLength="200" />
+    <Property Name="Address" Type="nvarchar" MaxLength="200" />
+    <Property Name="Latitude" Type="float" />
+    <Property Name="longitude" Type="float" />
+  </EntityType>
+  <EntityType Name="Members">
+    <Key>
+      <PropertyRef Name="MemberId" />
+    </Key>
+    <Property Name="MemberId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MemberName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MemberTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="MemberAddress" Type="nvarchar" MaxLength="200" />
+    <Property Name="MemberPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="MemberMail" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="200" />
+    <Property Name="IsConfirmed" Type="bit" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="Role" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="300" />
+  </EntityType>
+  <Association Name="FK_CommitteesMembers_Committees">
+    <End Role="Committees" Type="Self.Committees" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CommitteesMembers" Type="Self.CommitteesMembers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Committees">
+        <PropertyRef Name="CommitteeId" />
+      </Principal>
+      <Dependent Role="CommitteesMembers">
+        <PropertyRef Name="CommitteeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommitteesMembers_Meetings">
+    <End Role="Meetings" Type="Self.Meetings" Multiplicity="1" />
+    <End Role="CommitteesMembers" Type="Self.CommitteesMembers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meetings">
+        <PropertyRef Name="MeetingId" />
+      </Principal>
+      <Dependent Role="CommitteesMembers">
+        <PropertyRef Name="CommitteeMemberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommitteesMembers_Members">
+    <End Role="Members" Type="Self.Members" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CommitteesMembers" Type="Self.CommitteesMembers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Members">
+        <PropertyRef Name="MemberId" />
+      </Principal>
+      <Dependent Role="CommitteesMembers">
+        <PropertyRef Name="MemberId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Committee_DBModelStoreContainer">
+    <EntitySet Name="Alerts" EntityType="Self.Alerts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Committees" EntityType="Self.Committees" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CommitteesMembers" EntityType="Self.CommitteesMembers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CoommitteLookup" EntityType="Self.CoommitteLookup" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Meetings" EntityType="Self.Meetings" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Members" EntityType="Self.Members" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_CommitteesMembers_Committees" Association="Self.FK_CommitteesMembers_Committees">
+      <End Role="Committees" EntitySet="Committees" />
+      <End Role="CommitteesMembers" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommitteesMembers_Meetings" Association="Self.FK_CommitteesMembers_Meetings">
+      <End Role="Meetings" EntitySet="Meetings" />
+      <End Role="CommitteesMembers" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommitteesMembers_Members" Association="Self.FK_CommitteesMembers_Members">
+      <End Role="Members" EntitySet="Members" />
+      <End Role="CommitteesMembers" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
