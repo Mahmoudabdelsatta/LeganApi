@@ -4,6 +4,9 @@
     <EntitySetMapping Name="Alerts">
       <EntityTypeMapping TypeName="Committee_DBModel.Alert">
         <MappingFragment StoreEntitySet="Alerts">
+          <ScalarProperty Name="Action_Type" ColumnName="Action_Type" />
+          <ScalarProperty Name="Action_Id2" ColumnName="Action_Id2" />
+          <ScalarProperty Name="Action_Id1" ColumnName="Action_Id1" />
           <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
           <ScalarProperty Name="Message" ColumnName="Message" />
@@ -259,6 +262,23 @@
           <ScalarProperty Name="DateTime" ColumnName="DateTime" />
           <ScalarProperty Name="Code" ColumnName="Code" />
           <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ClickActions">
+      <EntityTypeMapping TypeName="Committee_DBModel.ClickAction">
+        <MappingFragment StoreEntitySet="ClickAction">
+          <ScalarProperty Name="Click_Action" ColumnName="Click_Action" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MeetingImages">
+      <EntityTypeMapping TypeName="Committee_DBModel.MeetingImage">
+        <MappingFragment StoreEntitySet="MeetingImages">
+          <ScalarProperty Name="MeetingImage1" ColumnName="MeetingImage" />
+          <ScalarProperty Name="MeetingId" ColumnName="MeetingId" />
           <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>

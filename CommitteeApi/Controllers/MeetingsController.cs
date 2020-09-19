@@ -492,9 +492,21 @@ namespace CommitteeApi.Controllers
         // GET: api/CommitteesMembers
         public IHttpActionResult GetMeetingImage(string meetingId, string ps)
         {
+            object obj = null;
+
             string decryptedMeetingId = HypridEncryption.decrypt(meetingId, ps);
             int decMeetingId = Convert.ToInt32(decryptedMeetingId);
-            return Json(db.MeetingImages.Where(x => x.MeetingId == decMeetingId).ToList());
+            var Images=  db.MeetingImages.Where(x => x.MeetingId == decMeetingId).ToList();
+            if (Images!=null || Images.Count!=0)
+            {
+                return Json(new { success = 1, error = obj, data = Images });
+
+            }
+            else
+            {
+                return Json(new { success = 0, error = obj, data = obj });
+            }
+
         }
 
         [System.Web.Http.HttpGet]

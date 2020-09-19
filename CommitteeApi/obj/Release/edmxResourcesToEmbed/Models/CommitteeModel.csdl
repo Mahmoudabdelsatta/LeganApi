@@ -7,8 +7,12 @@
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="UserId" Type="Int32" />
+    <Property Name="UserId" Type="Int32" Nullable="true" />
     <Property Name="CreatedAt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Action_Id1" Type="Int32" />
+    <Property Name="Action_Id2" Type="Int32" />
+    <Property Name="Action_Type" Type="Int32" />
+    <NavigationProperty Name="ClickAction" Relationship="Committee_DBModel.FK_Alerts_ActionType" FromRole="Alert" ToRole="ClickAction" />
   </EntityType>
   <EntityType Name="Committee">
     <Key>
@@ -39,7 +43,7 @@
     <NavigationProperty Name="Activity" Relationship="Committee_DBModel.FK_Committees_Activity" FromRole="Committee" ToRole="Activity" />
     <NavigationProperty Name="Importance" Relationship="Committee_DBModel.FK_Committees_Importance" FromRole="Committee" ToRole="Importance" />
     <NavigationProperty Name="Type" Relationship="Committee_DBModel.FK_Committees_Type" FromRole="Committee" ToRole="Type" />
-    <Property Name="DeptId" Type="Int32" />
+    <Property Name="DeptId" Type="Int32" Nullable="true" />
     <NavigationProperty Name="Department" Relationship="Committee_DBModel.FK_Committees_Departments" FromRole="Committee" ToRole="Department" />
   </EntityType>
   <EntityType Name="CommitteesMember">
@@ -61,18 +65,19 @@
     <Property Name="AgendaTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="AgendaDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="MeetingDate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-    <Property Name="MeetingId" Type="Int32" Nullable="false" />
+    <Property Name="MeetingId" Type="Int32" Nullable="true" />
     <Property Name="IsMemberAcceptedMiutesOfCommittee" Type="Boolean" />
     <Property Name="MemberSignature" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="AlertId" Type="Int32" />
     <NavigationProperty Name="Committee" Relationship="Committee_DBModel.FK_CommitteesMembers_Committees" FromRole="CommitteesMember" ToRole="Committee" />
     <Property Name="CreatedAt" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
     <Property Name="UpdatedAt" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
-    <Property Name="CommitteeRole" Type="Int32" Nullable="false" />
+    <Property Name="CommitteeRole" Type="Int32" Nullable="true" />
     <NavigationProperty Name="Role" Relationship="Committee_DBModel.FK_CommitteesMembers_Roles" FromRole="CommitteesMember" ToRole="Role" />
     <NavigationProperty Name="User" Relationship="Committee_DBModel.FK_CommitteesMembers_Users" FromRole="CommitteesMember" ToRole="User" />
     <Property Name="IsMinuteAccepted" Type="Boolean" />
     <NavigationProperty Name="Meeting" Relationship="Committee_DBModel.FK_CommitteesMembers_Meetings" FromRole="CommitteesMember" ToRole="Meeting" />
+    <NavigationProperty Name="SystemRole" Relationship="Committee_DBModel.FK_CommitteesMembers_SystemRole" FromRole="CommitteesMember" ToRole="SystemRole" />
   </EntityType>
   <EntityType Name="CoommitteLookup">
     <Key>
@@ -180,14 +185,24 @@
       <End Role="User" EntitySet="Users" />
       <End Role="Alert" EntitySet="Alerts" />
     </AssociationSet>
-    <AssociationSet Name="FK_CommitteesMembers_Meetings" Association="Committee_DBModel.FK_CommitteesMembers_Meetings">
-      <End Role="Meeting" EntitySet="Meetings" />
-      <End Role="CommitteesMember" EntitySet="CommitteesMembers" />
-    </AssociationSet>
     <EntitySet Name="Chats" EntityType="Committee_DBModel.Chat" />
     <EntitySet Name="MobileVerifications" EntityType="Committee_DBModel.MobileVerification" />
     <EntitySet Name="ChatMessages" EntityType="Committee_DBModel.ChatMessage" />
     <EntitySet Name="ValidCodes" EntityType="Committee_DBModel.ValidCode" />
+    <EntitySet Name="ClickActions" EntityType="Committee_DBModel.ClickAction" />
+    <AssociationSet Name="FK_Alerts_ActionType" Association="Committee_DBModel.FK_Alerts_ActionType">
+      <End Role="ClickAction" EntitySet="ClickActions" />
+      <End Role="Alert" EntitySet="Alerts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommitteesMembers_Meetings" Association="Committee_DBModel.FK_CommitteesMembers_Meetings">
+      <End Role="Meeting" EntitySet="Meetings" />
+      <End Role="CommitteesMember" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CommitteesMembers_SystemRole" Association="Committee_DBModel.FK_CommitteesMembers_SystemRole">
+      <End Role="SystemRole" EntitySet="SystemRoles" />
+      <End Role="CommitteesMember" EntitySet="CommitteesMembers" />
+    </AssociationSet>
+    <EntitySet Name="MeetingImages" EntityType="Committee_DBModel.MeetingImage" />
   </EntityContainer>
   <Association Name="FK_CommitteesMembers_Committees">
     <End Type="Committee_DBModel.Committee" Role="Committee" Multiplicity="1">
@@ -281,7 +296,7 @@
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_CommitteesMembers_Roles">
-    <End Type="Committee_DBModel.Role" Role="Role" Multiplicity="1">
+    <End Type="Committee_DBModel.Role" Role="Role" Multiplicity="0..1">
       <OnDelete Action="Cascade" />
     </End>
     <End Type="Committee_DBModel.CommitteesMember" Role="CommitteesMember" Multiplicity="*" />
@@ -384,7 +399,7 @@
     <NavigationProperty Name="Role" Relationship="Committee_DBModel.FK_Users_Roles" FromRole="User" ToRole="Role" />
     <NavigationProperty Name="SystemRoleMap" Relationship="Committee_DBModel.FK_Users_SystemRole" FromRole="User" ToRole="SystemRole" />
     <Property Name="WorkSide" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-    <Property Name="ManagerOfDepartment" Type="Int32" />
+    <Property Name="ManagerOfDepartment" Type="Int32" Nullable="true" />
     <NavigationProperty Name="Department" Relationship="Committee_DBModel.FK_Users_Departments" FromRole="User" ToRole="Department" />
     <Property Name="Name" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
     <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
@@ -466,18 +481,6 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_CommitteesMembers_Meetings">
-    <End Type="Committee_DBModel.Meeting" Role="Meeting" Multiplicity="1" />
-    <End Type="Committee_DBModel.CommitteesMember" Role="CommitteesMember" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Meeting">
-        <PropertyRef Name="MeetingId" />
-      </Principal>
-      <Dependent Role="CommitteesMember">
-        <PropertyRef Name="MeetingId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <EntityType Name="Chat">
     <Key>
       <PropertyRef Name="Id" />
@@ -518,5 +521,59 @@
     <Property Name="Phone" Type="Int64" />
     <Property Name="Code" Type="Int32" />
     <Property Name="DateTime" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="ClickAction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Click_Action" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Alerts" Relationship="Committee_DBModel.FK_Alerts_ActionType" FromRole="ClickAction" ToRole="Alert" />
+  </EntityType>
+  <Association Name="FK_Alerts_ActionType">
+    <End Type="Committee_DBModel.ClickAction" Role="ClickAction" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Committee_DBModel.Alert" Role="Alert" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClickAction">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Alert">
+        <PropertyRef Name="Action_Type" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommitteesMembers_Meetings">
+    <End Type="Committee_DBModel.Meeting" Role="Meeting" Multiplicity="0..1" />
+    <End Type="Committee_DBModel.CommitteesMember" Role="CommitteesMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Meeting">
+        <PropertyRef Name="MeetingId" />
+      </Principal>
+      <Dependent Role="CommitteesMember">
+        <PropertyRef Name="MeetingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CommitteesMembers_SystemRole">
+    <End Type="Committee_DBModel.SystemRole" Role="SystemRole" Multiplicity="0..1" />
+    <End Type="Committee_DBModel.CommitteesMember" Role="CommitteesMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SystemRole">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CommitteesMember">
+        <PropertyRef Name="CommitteeRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="MeetingImage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MeetingId" Type="Int32" Nullable="false" />
+    <Property Name="MeetingImage1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>

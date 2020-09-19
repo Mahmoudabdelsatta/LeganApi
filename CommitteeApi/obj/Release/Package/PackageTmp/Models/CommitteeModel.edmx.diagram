@@ -15,7 +15,7 @@
         <AssociationConnector Association="Committee_DBModel.FK_CommitteesMembers_Committees" />
         <EntityTypeShape EntityType="Committee_DBModel.Agendum" Width="1.5" PointX="5" PointY="16.25" />
         <EntityTypeShape EntityType="Committee_DBModel.Activity" Width="1.5" PointX="0.75" PointY="9.75" />
-        <EntityTypeShape EntityType="Committee_DBModel.Importance" Width="1.5" PointX="0.75" PointY="4.25" />
+        <EntityTypeShape EntityType="Committee_DBModel.Importance" Width="1.5" PointX="0.625" PointY="3.875" />
         <EntityTypeShape EntityType="Committee_DBModel.Type" Width="1.5" PointX="0.75" PointY="12.25" />
         <AssociationConnector Association="Committee_DBModel.FK_Committees_Activity" />
         <AssociationConnector Association="Committee_DBModel.FK_Committees_Importance" />
@@ -33,11 +33,15 @@
         <AssociationConnector Association="Committee_DBModel.FK_Users_Departments" />
         <AssociationConnector Association="Committee_DBModel.FK_Committees_Departments" />
         <AssociationConnector Association="Committee_DBModel.FK_Alerts_Users" />
-        <AssociationConnector Association="Committee_DBModel.FK_CommitteesMembers_Meetings" />
         <EntityTypeShape EntityType="Committee_DBModel.Chat" Width="1.5" PointX="9.375" PointY="0.75" />
         <EntityTypeShape EntityType="Committee_DBModel.MobileVerification" Width="1.5" PointX="9.375" PointY="3.75" />
         <EntityTypeShape EntityType="Committee_DBModel.ChatMessage" Width="1.5" PointX="5.375" PointY="11" />
         <EntityTypeShape EntityType="Committee_DBModel.ValidCode" Width="1.5" PointX="7.375" PointY="10.75" />
+        <EntityTypeShape EntityType="Committee_DBModel.ClickAction" Width="1.5" PointX="11.375" PointY="0.875" />
+        <AssociationConnector Association="Committee_DBModel.FK_Alerts_ActionType" />
+        <AssociationConnector Association="Committee_DBModel.FK_CommitteesMembers_Meetings" />
+        <AssociationConnector Association="Committee_DBModel.FK_CommitteesMembers_SystemRole" />
+        <EntityTypeShape EntityType="Committee_DBModel.MeetingImage" Width="1.5" PointX="11.375" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

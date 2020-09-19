@@ -187,6 +187,7 @@ namespace CommitteeApi.Controllers
         [Route("api/Users/GetUserByPhoneOrName")]
         public List<User> GetUserByPhoneOrName(string phone,string name,int deptId)
         {
+
            List<User> Users = db.Users.Where(x => x.Phone.ToString().Contains(phone.ToString().Trim())||x.Name.Trim().ToLower().Contains(name.Trim().ToLower())).ToList();
             if (Users.Count == 0)
             {
@@ -425,7 +426,7 @@ namespace CommitteeApi.Controllers
 
 
 
-                    SMSlegan.SMSGateway.SendSms("+" + decryptedPhone, code);
+              SMSlegan.SMSGateway.SendSms(code,decryptedPhone);
                     return Json(new { success = 1, error = obj, data = code });
                 }
                 else
@@ -436,6 +437,8 @@ namespace CommitteeApi.Controllers
             }
             catch (Exception ex)
             {
+                Utilities.LogError(ex);
+
                 return Json(new { success = 0, error =ex.StackTrace+ex.Message+ex.InnerException, data =obj});
 
 

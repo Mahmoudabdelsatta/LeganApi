@@ -28,6 +28,9 @@
     <Property Name="Message" Type="nvarchar(max)" />
     <Property Name="UserId" Type="int" />
     <Property Name="CreatedAt" Type="nvarchar" MaxLength="50" />
+    <Property Name="Action_Id1" Type="int" />
+    <Property Name="Action_Id2" Type="int" />
+    <Property Name="Action_Type" Type="int" />
   </EntityType>
   <EntityType Name="Chat">
     <Key>
@@ -51,6 +54,13 @@
     <Property Name="CommitteeId" Type="int" />
     <Property Name="Type" Type="nvarchar" MaxLength="50" />
     <Property Name="Extra" Type="bigint" />
+  </EntityType>
+  <EntityType Name="ClickAction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Click_Action" Type="nvarchar" MaxLength="200" />
   </EntityType>
   <EntityType Name="Committees">
     <Key>
@@ -100,13 +110,13 @@
     <Property Name="AgendaTime" Type="nvarchar" MaxLength="50" />
     <Property Name="AgendaDescription" Type="nvarchar(max)" />
     <Property Name="MeetingDate" Type="nvarchar" MaxLength="50" />
-    <Property Name="MeetingId" Type="int" Nullable="false" />
+    <Property Name="MeetingId" Type="int" />
     <Property Name="MemberSignature" Type="nvarchar(max)" />
     <Property Name="IsMemberAcceptedMiutesOfCommittee" Type="bit" />
     <Property Name="AlertId" Type="int" />
     <Property Name="CreatedAt" Type="nvarchar" MaxLength="500" />
     <Property Name="UpdatedAt" Type="nvarchar" MaxLength="500" />
-    <Property Name="CommitteeRole" Type="int" Nullable="false" />
+    <Property Name="CommitteeRole" Type="int" />
   </EntityType>
   <EntityType Name="CoommitteLookup">
     <Key>
@@ -141,6 +151,14 @@
     <Property Name="MeetingId" Type="int" Nullable="false" />
     <Property Name="MeetingDate" Type="nvarchar" MaxLength="300" />
     <Property Name="CreatedAt" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="MeetingImages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MeetingId" Type="int" Nullable="false" />
+    <Property Name="MeetingImage" Type="nvarchar(max)" />
   </EntityType>
   <EntityType Name="Meetings">
     <Key>
@@ -235,7 +253,7 @@
     <Property Name="DeviceType" Type="nvarchar" MaxLength="50" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6002: The table/view 'Committee_DB.dbo.ValidCode' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+warning 6002: The table/view 'Committee_DB2.dbo.ValidCode' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="ValidCode">
     <Key>
       <PropertyRef Name="Id" />
@@ -338,7 +356,7 @@ warning 6002: The table/view 'Committee_DB.dbo.ValidCode' does not have a primar
     </ReferentialConstraint>
   </Association>
   <Association Name="FK_CommitteesMembers_Meetings">
-    <End Role="Meetings" Type="Self.Meetings" Multiplicity="1" />
+    <End Role="Meetings" Type="Self.Meetings" Multiplicity="0..1" />
     <End Role="CommitteesMembers" Type="Self.CommitteesMembers" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Meetings">
@@ -419,12 +437,14 @@ warning 6002: The table/view 'Committee_DB.dbo.ValidCode' does not have a primar
     <EntitySet Name="Alerts" EntityType="Self.Alerts" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Chat" EntityType="Self.Chat" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ChatMessage" EntityType="Self.ChatMessage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClickAction" EntityType="Self.ClickAction" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Committees" EntityType="Self.Committees" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="CommitteesMembers" EntityType="Self.CommitteesMembers" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="CoommitteLookup" EntityType="Self.CoommitteLookup" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Importance" EntityType="Self.Importance" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="MeetingHistory" EntityType="Self.MeetingHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MeetingImages" EntityType="Self.MeetingImages" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Meetings" EntityType="Self.Meetings" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Members" EntityType="Self.Members" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="MobileVerification" EntityType="Self.MobileVerification" Schema="dbo" store:Type="Tables" />
